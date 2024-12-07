@@ -2,14 +2,13 @@ python-dotenv
 jupyterlab
 ipywidgets
 requests
-numpy
+numpy==1.26.4
 pandas
-scipy
 scikit-learn
 matplotlib
 gensim
 torch
-transformers
+transformers=4.46.0
 tqdm
 openai
 gradio
@@ -36,7 +35,8 @@ modal
 ollama
 accelerate
 sentencepiece
-bitsandbytes
 psutil
 setuptools
 speedtest-cli
+scipy==1.13.1
+bitsandbytes==0.45.0
